@@ -37,7 +37,7 @@ def info(email):
 		Date » {date}
 		Country » {co}
 		By » {by}
-		def » @XEF_R
+		def » @Yaali_515
 		===============
 		'''
 		tlg = f'https://api.telegram.org/bot{token}/sendMessage?chat_id={id}&text={ff}'
@@ -48,7 +48,7 @@ def info(email):
 		print("لا يوجد معلومات لليميل")
 		ff=f'''
 		Email • {email}@mail.ru
-		def • @XEF_R
+		def • @Yaali_515
 		'''
 		tlg = f'https://api.telegram.org/bot{token}/sendMessage?chat_id={id}&text={ff}'
 		print(ff)	
